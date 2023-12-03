@@ -1,0 +1,451 @@
+@media (min-width:150px) and (max-width:480px){
+    .start{
+        height:fit-content;
+        width: 100%;
+    }
+    .start>.main>.logo>img{
+        width: 100%;
+        object-fit: cover;
+      }
+    .start>.main>.list>ul{
+        display: none;
+    }
+    .start>.main>.icons{
+        display: none;
+    }
+    .start>.main>.list>.fa-bars{
+        display: block;
+        margin-right: 20px;
+    }
+    .start>.main>.list>.fa-xmark{
+      margin-right: 20px;
+    }
+    .small-screens{
+        width: 100%;
+        padding-bottom: 2vh;
+        background-color: rgb(221, 235, 235);
+        position: fixed;
+        z-index: 10000;
+        top: 15vh;
+    }
+    .small-screens>.main-s{
+        gap: 3vh;
+    }
+    .small-screens>.main-s>.list-s{
+        transition: max-height 0.5s ease-out;
+    }
+    .small-screens>.main-s>.list-s>ul{
+      line-height: 40px;
+      text-align: center; 
+      font-family: 'Montserrat' , 'sans-serif';
+    }
+    .small-screens>.main-s>.list-s>ul>hr{
+        width: 100vw;
+    }
+    .small-screens>.main-s>.icons-s{
+        gap: 3vw;
+    }
+    .important{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 15vh;
+    }
+    .important>.imp>h4{
+        font-size: 18px;
+        color: #f8f8f8;
+    }
+    .important>.imp{
+        margin-left: 5vw;
+        padding-top:15vh;
+    }
+    .important>.imp>h1{
+        font-size: 25px;
+        color: #f8f8f8;
+    }
+    .important>.imp>h1>.others{
+        color: #ffbebe;
+    }
+    .important>.imp>a>button{
+        width: 100%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .different{
+        height: 100%;
+        padding-bottom: 5vh;
+    }
+    .different>.boxes{
+        gap: 5vh;
+    }
+    .different>.boxes>.box{
+        width:80%;
+        height: 100%;
+       padding-bottom: 15vh;
+        padding-top: 15vh;
+    }
+    .different>.boxes>#box-1{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .different>.boxes>#box-2{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .different>.boxes>#box-3{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .different>.boxes>.box>.sub-box{
+        padding: none;
+    }
+    .different>.boxes>#box-1>.sub-box>h2{
+        font-size: 18px;
+    }
+    .different>.boxes>#box-2>.sub-box>h2{
+        font-size: 18px;
+    }
+    .different>.boxes>#box-3>.sub-box>h2{
+        font-size: 20px;
+    }
+    .different>.boxes>.box>.sub-box>a>button{
+        width:100%;
+        height:100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .different>.boxes>.box>.sub-box>h2{
+        font-size: 20px;
+    }
+    .same{
+        height: 100%;
+        padding-bottom: 5vh;
+    }
+    .same>.intro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2vh;
+        font-family: 'Montserrat' , 'sans-serif';
+        text-align: center;
+        padding-top: 5vh;
+    }
+    .same>.intro>hr{
+        width: 20%;
+    }
+    .same>.baksa>.sub-baksa{
+        width: 85%;
+        height: 100%;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    .same>.baksa>.sub-baksa>.father>.rest>button{
+        width: 100%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .same>.baksa>.sub-baksa>img{
+        width: 100%;
+        height: 65%;
+        object-fit: cover;
+    }
+    .check{
+        height: 100%;
+        padding-bottom: 15vh;
+    }
+    .check>.brand>h5{
+        font-size: 18px;
+    }
+    .check>.brand>h1{
+        font-size: 27px;
+    }
+    .check>.brand>button{
+        width: auto;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .similar{
+        height: 100%;
+        padding-bottom: 5vh;
+    }
+    .similar>.introduction{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2vh;
+        font-family: 'Montserrat' , 'sans-serif';
+        text-align: center;
+        padding-top: 5vh;
+    }
+    .similar>.introduction>hr{
+        width: 20%;
+    }
+    .similar>.brief>.sub-breif{
+        width: 85%;
+        height: 100%;
+        padding-bottom: 2vh;
+    }
+    .similar>.brief>.sub-breif>img{
+        width: 100%;
+        height: 25vh;
+    }
+    .similar>.brief>.sub-breif>.baap>.rahnday>button{
+        width: 100%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    /*Section of the boots*/
+    .boots{
+        height: 100%;
+        padding-bottom: 5vh;
+    }
+    .boots>.company{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2vh;
+        font-family: 'Montserrat' , 'sans-serif';
+        text-align: center;
+        padding-top: 5vh;
+    }
+    .boots>.company>hr{
+        width: 20%;
+    }
+    .boots>.goot>.sub-goot{
+        width: 85%;
+        height: 100%;
+        padding-bottom: 2vh;
+    }
+    .boots>.goot>.sub-goot>.bapu>.rahy>button{
+        width: 100%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .boots>.goot>.sub-goot>img{
+        width: 100%;
+        height: 20vh;
+        object-fit: contain;
+    }
+    /*Section of the watches*/
+    .watches{
+        height: 100%;
+        padding-bottom: 3vh;
+    }
+    .watches>.styles{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2vh;
+        font-family: 'Montserrat' , 'sans-serif';
+        text-align: center;
+        padding-top: 5vh;
+    }
+    .watches>.styles>hr{
+        width: 20%;
+    }
+    .watches>.watch>.sub-watch{
+        width: 85%;
+        height: 100%;
+        padding-bottom: 2vh;
+    }
+    .watches>.watch>.sub-watch>.ancestor>.behind>button{
+        width: 100%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .watches>.watch>.sub-watch>img{
+        width: 100%;
+        height: 25vh;
+        object-fit: contain;
+    }
+    .all{
+        height: 100%;
+        padding-bottom: 3vh;
+    }
+    .all .braces{
+        display: flex;
+        flex-direction: column;
+    }
+    .all .braces .small-braces{
+        align-items: center
+    }
+    .all .braces .small-braces .brackets{
+      width:90%;
+      height:30vh;
+    }
+   .all .braces .small-braces .brackets-small .small{
+        width: 20vw;
+    }
+    .all .braces .large-braces{
+        width: 80%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 6vh auto;
+        padding-bottom: 3vh;
+    }
+    .large-braces .main-part{
+        display: flex;
+        align-items: center;
+        gap: 5vw;
+    }
+    .large-braces .main-part a button{
+        width: 100%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .large-braces .further{
+        width: 100%;
+        text-align: center;
+    }
+    .cart{
+        height: 100%;
+        overflow: hidden;
+        padding-bottom: 5vh;
+    }
+    .cart .bag{
+        margin-left: 0vw;
+    }
+    .cart .bag .container{
+       margin-left: 4vw;
+    }
+    .cart .bag .container h2{
+        font-size: 24px;
+    }
+    .cart .bag .container-second{
+        width: 100%;
+    }
+    .cart .bag .container-first  table input{
+        width: 10px;
+        height: 20px;
+    }
+    .cart .product-image{
+        display: flex;
+        flex-direction: column;
+    }
+    .cart-total{
+        align-items: center;
+        align-self: center
+    }
+    .checkout{
+        align-self:flex-end;
+    }
+    .checkout button{
+        width: 100%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .login{
+        height: 100%;
+        padding-bottom: 3vh;
+    }
+    .flexbox{
+        width: 85%;
+    }
+    .login-form form input{
+        width: 100%;
+    }
+    .login-form form button{
+        width:75%;
+    }
+    .register{
+        height: 100%;
+        padding-bottom: 5vh;
+    }
+    .flexreg{
+        width: 85%;
+    }
+    .register-form form input{
+        width: 100%;
+    }
+    .register-form form button{
+        width: 75%;
+    }
+    .account{
+        height: 100%;
+        padding-bottom: 5vh;
+    }
+    .forefather{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .forefather .account-info{
+        width: 100%;
+        justify-content: center;
+    }
+    .forefather .password{
+        width: 100%;
+        justify-content: center;
+    }
+    .change-password form input{
+        width: 100%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .change-password form button{
+        width: 100%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .payment{
+        height: 100%;
+        padding-bottom: 5vh;
+    }
+    .student-2{
+        width: 85%;
+    }
+    .student-2 form input{
+        width: 80%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    .student-2 form button{
+        width: 80%;
+        height: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+}

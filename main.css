@@ -1,0 +1,1191 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Ephesis&family=Montserrat:ital,wght@0,100;0,400;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.start {
+    position: fixed;
+    height: 15vh;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    z-index: 10000;
+    box-shadow: 5px 5px 13px;
+    background-color: #fff;
+}
+.start>.main>.list>.fa-bars{
+    font-size: 30px;
+    background-color: rgb(216, 240, 240);
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius:5px;
+    display: none;
+    cursor: pointer;
+}
+.start>.main>.list>.fa-xmark{
+    font-size: 30px;
+    background-color: rgb(216, 240, 240);
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius:5px;
+    display: none;
+    cursor: pointer;
+}
+.start>.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.start>.main>.logo>img{
+  width: 15vw;
+  height: 15vh;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+.start>.main>.list>ul{
+     display: flex;
+     align-items: center;
+     gap: 5vw;
+     list-style: none;
+     margin-right: 0vw;
+}
+.start>.main>.list>ul>a>li{
+    font-size: 16px;
+}
+.start>.main>.list>ul>a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat' , 'sans-serif';
+}
+.start>.main>.icons{
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+    font-size: 25px;
+    color: #000;
+    gap: 1vw;
+    cursor: pointer;
+}
+.small-screens{
+    background-color: #f8f8f8;
+    height: auto;
+    width: 100%;
+    display: none;
+}
+.small-screens>.main-s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.small-screens>.main-s>.list-s>ul{
+    list-style: none;
+    width: 100%;
+}
+.small-screens>.main-s>.list-s>ul>a{
+    text-decoration: none;
+    color: #000;
+}
+.small-screens>.main-s>.list-s>ul>a>li{
+    font-size: 18px;
+}
+.small-screens>.main-s>.icons-s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+.important{
+    position: relative;
+    top: 15vh;
+    height: 85vh;
+    background-image:linear-gradient(to right ,rgba(0,0,0,.5) , rgba(0,0,0,.25)) , url(Images/main-second.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.important>.imp{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5vh;
+    margin-left: 8vw;
+    padding-top: 25vh;
+    font-family: 'Montserrat' , 'sans-serif';
+}
+.important>.imp>h4{
+    font-size: 18px;
+    color: #fff;
+}
+.important>.imp>h1{
+    font-size: 35px;
+    color: #fff;
+}
+.important>.imp>h1>.others{
+    color: #ffbebe;
+}
+.important>.imp>a>button{
+    width: 15vw;
+    height: 7vh;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
+    font-family: 'Montserrat' , 'sans-serif';
+    cursor: pointer;
+}
+.important>.imp>a>button:hover{
+    background-color: #333;
+    transition: all 0.5s ease-out;
+}
+.different{
+    position: relative;
+    height: 75vh;
+    top: 15vh;
+}
+.different>.boxes{
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+.different>.boxes>.box{
+    width: 30vw;
+    height: 55vh;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 2.5px 2px 10px #333;
+}
+.different>.boxes>#box-1{
+    background-image:linear-gradient(to right , rgba(0,0,0,0.25) , rgba(0,0,0,.25)) , url(Images/shoe-real.png);
+    background-size: cover;
+    background-position: center center;
+}
+.different>.boxes>#box-2{
+    background-image:linear-gradient(to right , rgba(0,0,0,0.25) , rgba(0,0,0,.25)) , url(Images/watch-sale.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.different>.boxes>#box-3{
+    background-image:linear-gradient(to right , rgba(0,0,0,0.25) , rgba(0,0,0,.25)) , url(Images/jacket-sale.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.different>.boxes>.box>.sub-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+.different>.boxes>.box>.sub-box>h2{
+    font-family: 'Montserrat' , 'sans-serif';
+    color: #f9f9f9;
+    font-size: 22px;
+}
+.different>.boxes>.box>.sub-box>a>button{
+    width: 10vw;
+    height: 5vh;
+    background-color: rgba(17, 13, 13, 0.75);
+    font-family: 'Montserrat' , 'sans-serif';
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.75s ease-out;
+}
+.different>.boxes>.box>.sub-box>a>button:hover{
+    background-color:rgba(0,0,0,0.25);
+}
+.same{
+    position: relative;
+    height: 100vh;
+    top: 15vh;
+}
+.same>.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    font-family: 'Montserrat' , 'sans-serif';
+    text-align: center;
+    padding-top: 5vh;
+}
+.same>.intro>hr{
+    width: 8%;
+    border: 1px solid coral;
+}
+.same>.intro>p{
+    font-size: 18px;
+}
+.same>.baksa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+}
+.same>.baksa>.sub-baksa{
+    width: 20.25vw;
+    height: 60vh;
+    background-color:#f2f2f4;
+}
+.same>.baksa>.sub-baksa>img{
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+.same>.baksa>.sub-baksa>.father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.75vh;
+    padding-top: 1vh;
+}
+.same>.baksa>.sub-baksa>.father>.child{
+   font-size: 18px;
+   color: #333;
+   cursor: pointer;
+}
+.same>.baksa>.sub-baksa>.father>.child>.fa-star{
+    color: gold;
+}
+.same>.baksa>.sub-baksa>.father>.rest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.75vh;
+}
+.same>.baksa>.sub-baksa>.father>.rest>h5{
+    font-family: 'Montserrat' , 'sans-serif';
+    font-size: 15px;
+}
+.same>.baksa>.sub-baksa>.father>.rest>button{
+    width: 9vw;
+    height: 6vh;
+    background-color: coral;
+    color: #ffff;
+    font-family: 'Montserrat' ,  'sans-serif';
+    transition: all 0.75s ease-out;
+    border: 1px solid coral;
+}
+.same>.baksa>.sub-baksa>.father>.rest>button:hover{
+     opacity:0.8;
+     cursor: pointer;
+}
+.check{
+    position: relative;
+    top: 15vh;
+    height: 70vh;
+    background-image:linear-gradient(to right , rgba(0,0,0,.25) , rgba(0,0,0,.5)) , url(Images/main-extra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.check>.brand{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 10vw;
+    font-family: 'Montserrat' , 'sans-serif';
+    padding-top: 10vh;
+    gap: 2vh;
+}
+.check>.brand>h5{
+    font-size: 19px;
+}
+.check>.brand>h1{
+    color: cornsilk;
+    font-size: 35px;
+}
+.check>.brand>button{
+    width: 15vw;
+    height: 7vh;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
+    font-family: 'Montserrat' , 'sans-serif';
+    cursor: pointer;
+}
+.similar{
+    position: relative;
+    height: 100vh;
+    top: 15vh;
+}
+.similar>.introduction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    font-family: 'Montserrat' , 'sans-serif';
+    text-align: center;
+    padding-top: 10vh;
+}
+.similar>.introduction>hr{
+    width: 8%;
+    border: 1px solid coral;
+}
+.similar>.introduction>p{
+    font-size: 18px;
+}
+.similar>.brief{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+}
+.similar>.brief>.sub-breif{
+    width: 20.25vw;
+    height: 60vh;
+    background-color:#f2f2f4;
+}
+.similar>.brief>.sub-breif>img{
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+.similar>.brief>.sub-breif>.baap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.75vh;
+    padding-top: 1vh;
+}
+.similar>.brief>.sub-breif>.baap>.baby{
+   font-size: 18px;
+   color: #333;
+   cursor: pointer;
+}
+.similar>.brief>.sub-breif>.baap>.baby>.fa-star{
+    color: gold;
+}
+.similar>.brief>.sub-breif>.baap>.rahnday{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.75vh;
+}
+.similar>.brief>.sub-breif>.baap>.rahnday>h5{
+    font-family: 'Montserrat' , 'sans-serif';
+    font-size: 15px;
+}
+.similar>.brief>.sub-breif>.baap>.rahnday>button{
+    width: 9vw;
+    height: 6vh;
+    background-color: coral;
+    color: #ffff;
+    font-family: 'Montserrat' ,  'sans-serif';
+    transition: all 0.75s ease-out;
+    border: 1px solid coral;
+}
+.similar>.brief>.sub-breif>.baap>.rahnday>button:hover{
+     opacity:0.8;
+     cursor: pointer;
+}
+.boots{
+    position: relative;
+    height: 100vh;
+    top: 15vh;
+}
+.boots>.company{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    font-family: 'Montserrat' , 'sans-serif';
+    text-align: center;
+    padding-top: 5vh;
+}
+.boots>.company>hr{
+    width: 8%;
+    border: 1px solid coral;
+}
+.boots>.company>p{
+    font-size: 18px;
+}
+.boots>.goot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+}
+.boots>.goot>.sub-goot{
+    width: 20.25vw;
+    height: 60vh;
+    background-color:#f2f2f4;
+}
+.boots>.goot>.sub-goot>img{
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+.boots>.goot>.sub-goot>.bapu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.75vh;
+    padding-top: 1vh;
+}
+.boots>.goot>.sub-goot>.bapur>.balak{
+   font-size: 18px;
+   color: #333;
+   cursor: pointer;
+}
+.boots>.goot>.sub-goot>.bapu>.balak>.fa-star{
+    color: gold;
+}
+.boots>.goot>.sub-goot>.bapu>.rahy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.75vh;
+}
+.boots>.goot>.sub-goot>.bapu>.rahy>h5{
+    font-family: 'Montserrat' , 'sans-serif';
+    font-size: 15px;
+}
+.boots>.goot>.sub-goot>.bapu>.rahy>button{
+    width: 9vw;
+    height: 6vh;
+    background-color: coral;
+    color: #ffff;
+    font-family: 'Montserrat' ,  'sans-serif';
+    transition: all 0.75s ease-out;
+    border: 1px solid coral;
+}
+.boots>.goot>.sub-goot>.bapu>.rahy>button:hover{
+     opacity:0.8;
+     cursor: pointer;
+}
+.watches{
+    position: relative;
+    height: 100vh;
+    top: 15vh;
+}
+.watches>.styles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    font-family: 'Montserrat' , 'sans-serif';
+    text-align: center;
+    padding-top: 5vh;
+}
+.watches>.styles>hr{
+    width: 8%;
+    border: 1px solid coral;
+}
+.watches>.styles>p{
+    font-size: 18px;
+}
+.watches>.watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+}
+.watches>.watch>.sub-watch{
+    width: 20.25vw;
+    height: 60vh;
+    background-color:#f2f2f4;
+}
+.watches>.watch>.sub-watch>img{
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+.watches>.watch>.sub-watch>.ancestor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.75vh;
+    padding-top: 1vh;
+}
+.watches>.watch>.sub-watch>.ancestor>.public{
+   font-size: 18px;
+   color: #333;
+   cursor: pointer;
+}
+.watches>.watch>.sub-watch>.ancestor>.public>.fa-star{
+    color: gold;
+}
+.watches>.watch>.sub-watch>.ancestor>.behind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.75vh;
+}
+.watches>.watch>.sub-watch>.ancestor>.behind>h5{
+    font-family: 'Montserrat' , 'sans-serif';
+    font-size: 15px;
+}
+.watches>.watch>.sub-watch>.ancestor>.behind>button{
+    width: 9vw;
+    height: 6vh;
+    background-color: coral;
+    color: #ffff;
+    font-family: 'Montserrat' ,  'sans-serif';
+    transition: all 0.75s ease-out;
+    border: 1px solid coral;
+}
+.watches>.watch>.sub-watch>.ancestor>.behind>button:hover{
+     opacity:0.8;
+     cursor: pointer;
+}
+.footer{
+    position: relative;
+    height: 80vh;
+    top: 15vh;
+    background-color:#321233;
+}
+.footer>.road{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    gap: 8vw;
+    padding-top: 2vh;
+    font-family: 'Montserrat' , 'sans-serif';
+}
+.footer>.road>.first-part{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footer>.road>.first-part>img{
+    height: 30vh;
+    width: 20vw;
+    object-fit: contain;
+}
+.footer>.road>.first-part>p{
+    color: #fff;
+    font-size: 18px;
+}
+.footer>.road>.features{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer>.road>.features>h4{
+    color: #fff;
+    font-size: 22px;
+}
+.footer>.road>.features>p{
+    color: #ffff;
+}
+.address>h4{
+    font-size: 22px;
+    color: #fff;
+}
+.address>p{
+    color: #fff;
+}
+.icons{
+    font-size: 25px;
+    color: #333; 
+    display: flex;
+    align-items: center;
+    gap: 0.75vw;
+}
+.icons>.fa-facebook{
+    background-color: #fff;
+    padding: 7px 6px;
+    border-radius: 13px;
+}
+.icons>.fa-instagram{
+    background-color: #fff;
+    padding: 7px 6px;
+    border-radius: 10px;
+}
+.icons>.fa-twitter{
+    background-color: #fff;
+    padding: 7px 6px;
+    border-radius: 13px;
+}
+.navigation{
+    position: relative;
+    top: 15vh;
+    height: 10vh;
+}
+.navigation>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.navigation>ul>a{
+    text-decoration: none;
+    color: #000;
+}
+.navigation>ul>a>li{
+    font-family: 'Montserrat' , 'sans-serif';
+    background-color: #fff;
+    padding: 5px 5px;
+    border: 1px solid #444;
+    transition: all 0.5s ease-in;
+}
+.navigation>ul>a>li:hover{
+    background-color: coral;
+    color: #fff;
+}
+/*The page of single product is starting from here*/
+.all{
+    position: relative;
+    top: 15vh;
+    height: 120vh;
+}
+.all>.braces{
+    padding-top: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.all>.braces>.small-braces{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5vh;
+}
+.all>.braces>.small-braces>.brackets{
+    background-image: url(Images/shoes-sale.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    width: 50vw;
+    height: 55vh;
+}
+.all>.braces>.small-braces>.brackets-small{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2.5vw;
+}
+.all>.braces>.small-braces>.brackets-small>.small{
+    width:10vw;
+    height: 15vh;
+    background-color: #fff;
+    cursor: pointer;
+}
+.all>.braces>.small-braces>.brackets-small>#small-1{
+       background-image: url(Images/bag-1.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+}
+.all>.braces>.small-braces>.brackets-small>#small-2{
+    background-image: url(Images/cloth-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.all>.braces>.small-braces>.brackets-small>#small-3{
+    background-image: url(Images/jacket-sale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.all>.braces>.small-braces>.brackets-small>#small-4{
+    background-image: url(Images/bag-own-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.all>.braces>.large-braces{
+    width: 45vw;
+    height: 50vh;
+    background-color: #f2f2f4;
+    font-family: 'Montserrat' , 'sans-serif';
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+    gap: 5vh;
+    padding-left: 5vw;
+    padding-top: 2vh;
+}
+.large-braces>.main-part{
+    line-height: 35px;
+}
+.large-braces>.main-part>p{
+    font-size: 20px;
+}
+.large-braces>.main-part>input{
+    width: 40px;
+    height: 5vh;
+    padding-left: 10px;
+}
+.large-braces>.main-part>a>button{
+    width: 12vw;
+    height: 6vh;
+    background-color: coral;
+    border: none;
+    cursor: pointer;
+}
+.large-braces>.further{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+/*The section of the sorry the page of the cart starts from here*/
+.cart{
+    position: relative;
+    top: 15vh;
+    height: 110vh;
+}
+.cart>.bag{
+    padding-top: 7vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    margin-left: 5vw;
+    font-family: 'Montserrat' , 'sans-serif';
+}
+.cart>.bag>.container>hr{
+   border: 1px solid coral;
+   width: 50%;
+   margin-left: 0.5vw;
+}
+.cart>.bag>.container>h2{
+    font-size: 30px;
+    color: #161212;
+}
+.cart>.bag>.container-second{
+    width: 85%;
+    border-collapse: collapse;
+}
+.cart .bag .container-second table th{
+    text-align:left;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: coral;
+    width: 50%;
+}
+.cart .bag .container-second table a{
+    text-decoration: none;
+    color: coral;
+}
+.cart .bag .container-second  table input{
+    width: 40px;
+    height: 20px;
+}
+.cart .product-image{
+   display: flex;
+   width: 15vw;
+}
+.product-image .direction{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.cart td{
+    padding: 10px 20px;
+}
+.cart td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.cart-total{
+   width: 25vw;
+   display: flex;
+   align-self: flex-end;
+   margin-right: 7vw;
+}
+.cart-total table{
+    width: 100%;
+    max-width: 500px;
+    border-top: 2px solid coral;
+}
+.checkout{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 18vw;
+}
+.checkout button{
+    width: 12vw;
+    height: 6vh;
+    background-color: coral;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid transparent;
+} 
+/*The section of the login page starts from here*/
+.login{
+    position: relative;
+    top: 15vh;
+    height: 85vh;
+    padding-top: 7vh;
+}
+.flexbox{
+    width:30vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    font-family: 'Montserrat' , 'sans-serif';
+    border: 1px solid #333;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0px auto;
+}
+.flexbox .starting h1{
+    font-size: 30px;
+}
+.flexbox .login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flexbox .big-line{
+    width: 70%;
+    border: 1px solid coral;
+}
+.flexbox .starting .login-line{
+    width: 50%;
+    border: 1px solid coral;
+    margin: 0px auto;
+}
+.login-form form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.login form label{
+    font-size: 19px;
+}
+.login-form form input{
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+    padding-left: 0.5vw;
+}
+.login-form form button{
+    width: 20vw;
+    height: 6vh;
+    background-color: coral;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+}
+.login form a{
+    color: coral;
+}
+/*The registration page starts from here ownwards*/
+.register{
+    position: relative;
+    top: 15vh;
+    height:110vh;
+    padding-top: 7vh;
+}
+.flexreg{
+    width:30vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    font-family: 'Montserrat' , 'sans-serif';
+    border: 1px solid #333;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0px auto;
+}
+.flexreg .folowing h1{
+    font-size: 30px;
+}
+.flexreg .register-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flexreg .large-line{
+    width: 70%;
+    border: 1px solid coral;
+}
+.flexreg .folowing .register-line{
+    width: 40%;
+    border: 1px solid coral;
+    margin: 0px auto;
+}
+.register-form form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.register form label{
+    font-size: 19px;
+}
+.register-form form input{
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+    padding-left: 0.5vw;
+}
+.register-form form button{
+    width: 20vw;
+    height: 6vh;
+    background-color: coral;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+}
+.register form a{
+    color: coral;
+}
+/*The accoutnt page starts from here ownwards*/
+.account{
+    position: relative;
+    top: 15vh;
+    height: 100vh;
+    padding-top:10vh;
+}
+.forefather{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 5vh;
+    margin-left:0vw;
+    font-family: 'Montserrat' , 'sans-serif';
+}
+.forefather .account-info{
+     width: 30vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 5vh;
+}
+.main-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.main-heading h1{
+    font-size: 30px;
+}
+.main-heading hr{
+   width: 30%;
+   margin: 0px auto;
+   border: 1px solid coral;
+}
+.account-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5vh;
+}
+.account-details p{
+    font-size: 19px;
+}
+.forefather .password{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+.password .change-password form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.main-heading-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.main-heading-2 h1{
+    font-size: 30px;
+}
+.main-heading-2 hr{
+   width: 30%;
+   margin: 0px auto;
+   border: 1px solid coral;
+}
+.change-password  label{
+    font-size: 18px;
+}
+.change-password form input{
+    width: 20vw;
+    height: 6vh;
+    padding-left: 1vw;
+}
+.change-password form button{
+width: 20vw;
+height: 6vh;
+background-color: coral;
+border: none;
+cursor: pointer;
+font-size: 18px;
+color: #fff;
+}
+.orders-detail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    font-family: 'Montserrat' , 'sans-serif';
+    margin-top: 5vh;
+    display: none;
+}
+ .details{
+    width: 75%;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.details p{
+    font-size: 20px;
+    color: #fff;
+}
+.product-details{
+    display: flex;
+    align-items: center;
+}
+.product-details img{
+    width: 80px;
+    height: 80px;
+}
+#order-manager{
+    cursor: pointer;
+}
+.manage{
+    display: flex;
+    align-items:center;
+    width: 75%;
+    justify-content: space-around;
+}
+/*THe checkout page starts from here*/
+.payment{
+    position: relative;
+    top: 15vh;
+    height: 105vh;
+    padding-top: 8vh;
+    font-family: 'Montserrat' , 'sans-serif';
+}
+.payment .teacher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+.student-1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1vh;
+}
+.student-1 h1{
+   font-size: 30px;
+}
+.student-1 hr{
+    border: 1px solid coral;
+    width: 30%;
+    margin: 0px auto;
+}
+.student-2{
+    width: 30vw;
+    border: 1px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.student-2 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    padding-bottom: 2vh;
+}
+.student-2 form input{
+    width: 25vw;
+    height: 5vh;
+}
+.student-2 form button{
+    width: 20vw;
+height: 6vh;
+background-color: coral;
+border: none;
+cursor: pointer;
+font-size: 18px;
+color: #fff;
+}
+.contact{
+    position: relative;
+    top: 15vh;
+    height:50vh;
+    font-family: 'Montserrat' , 'sans-serif';
+    padding-top: 5vh;
+}
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+.contact-head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+.contact-head h1{
+    font-size: 30px;
+}
+.contact-head hr{
+    width: 30%;
+    border: 1px solid coral;
+}
+.contact-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+/*2000 mins 0 call setup 30 days 390RS 450RS*/
